@@ -4,7 +4,7 @@ import MovieList from './MovieList';
 
 const App = ({movies}) => (
   <div>
-    <div>MovieList</div>
+    <h3>MovieList</h3>
     <MovieList movies={movies}/>
   </div>
 );
